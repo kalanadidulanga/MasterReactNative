@@ -8,6 +8,8 @@ import DynamicContent from "@/components/DynamicContent";
 import ImageComponent from "@/components/ImageComponent";
 import ListData from "@/components/ListData";
 import TextComponent from "@/components/TextComponent";
+import Counter from "@/components/UseReducer/Counter";
+import WithCustomHook from "@/components/WithCustomHook";
 import { View } from "react-native";
 
 export default function Index() {
@@ -31,7 +33,11 @@ export default function Index() {
 
       {/* <WithState /> */}
 
-      <UpdateArray />
+      {/* <UpdateArray /> */}
+
+      {/* <Counter /> */}
+
+      <WithCustomHook />
     </View>
   );
 }
