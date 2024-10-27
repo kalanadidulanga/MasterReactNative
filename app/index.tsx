@@ -10,7 +10,7 @@ import ListData from "@/components/ListData";
 import TextComponent from "@/components/TextComponent";
 import Counter from "@/components/UseReducer/Counter";
 import WithCustomHook from "@/components/WithCustomHook";
-import { View } from "react-native";
+import { Text, View } from "react-native";
 
 export default function Index() {
   return (
@@ -37,7 +37,9 @@ export default function Index() {
 
       {/* <Counter /> */}
 
-      <WithCustomHook />
+      {/* <WithCustomHook /> */}
+
+      <Text>Home Page</Text>
     </View>
   );
 }
